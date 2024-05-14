@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <div class="gameArea">
+      <div class="painting">
+        <canvas id="drawing-area" width="600" height="600"></canvas>
+        <canvas id="cursor-area" width="600" height="600"></canvas>
+      </div>
+      <div class="tools">
+        <input type="color" id="color" value="#000000">
+        <input type="range" id="cursor-size" min="5" max="55" value="30" step="5">
+        <div id="color-memory"></div>
+        <button id="replay">Replay</button>
+        <button id="undo">undo</button>
+        <button id="redo">redo</button>
+        <button id="download">download</button>
+      </div>
+    </div>
+    <script src="/index.js"></script>
+  </body>
+</html>

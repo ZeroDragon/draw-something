@@ -1,0 +1,40 @@
+body {
+  background-color: #172039;
+}
+.painting {
+  position: relative;
+  width: 600px;
+  height: 600px;
+}
+.painting canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#cursor-area {
+  pointer-events: none;
+}
+#drawing-area {
+  cursor: none;
+}
+#color-memory button {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+}
+input[type="color"] {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+}
+input[type="range"] {
+  width: 200px; /* Set the width */
+}
+#color-memory, .tools {
+  margin: 10px 0;
+}
